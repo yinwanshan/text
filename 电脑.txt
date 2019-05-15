@@ -1,0 +1,4 @@
+dtrl+shift+esc
+
+打开新进程：explorer
+为了彻底解决黑屏故障：      regedit

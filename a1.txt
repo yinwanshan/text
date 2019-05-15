@@ -1,0 +1,82 @@
+http://127.0.0.1:81/bbs
+
+30
+-51
+-469.51
+
+git版本控制器
+
+
+netsh slan show profiles
+24681013579
+
+samba服务器2
+netsh wlan show profile name="  " key=clear
+mysql数据库远程工具查询：sql（Navicate工具）
+白的夜（贴吧）
+烤骨髓:
++1
+，
+
+吕布有扇穿越门
+斗罗之逍遥山庄
+
+cocody： 13579246810
+音乐：少司命，
+
+拖延症
+
+
+C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+http://127.0.0.1:1080/WebTours/
+F:\LR存储\bin
+
+鸭糖部天天快递
+
+1.commodityinfo引用commoditysort(SortId 主键)
+
+
+2.orderinfo引用userinfo(userid 外键)
+
+
+3.orderinfo引用commodityinfo(commodityid)
+
+
+4.commodityinfo的commodityid自增，从一开始，每次增加一
+
+
+5.userinfo的userpwd设置约束长度大于等于6
+
+
+6.userinfo的gender设置约束只能为一或者零
+
+
+7.orderinfo的payway设置约束默认为'网上银行'
+
+
+8.orderinfo的confirm设置约束只能为一或者零，并且默认为零
+
+
+9.orderinfo的sendgoods设置约束只能为一或者零，并且默认为零
+
+
+
+1.SortId int identity primary key,//主键（commoditysort）
+2.id int identity(1,1) ,//主键（orderinfo）
+3.commodityid int identity(1,1), //主键（commodityinfo ） 
+4.id int identity(1,1), //主键（userinfo）
+
+
+5.id varchar(15), // 外键（orderinfo）,
+6.userid varchar(15), // 外键（userinfo），orderinfo表的主键
+7.SortId int,  //外键（commodityinfo），主键（commoditysort）
+
+
+8.commodityid  //外键（orderinfo），//主键（commodityinfo ）  
+
+
+
+orderinfo：关联表
+
+
+between,in,like,分离/附加数据库,约束
